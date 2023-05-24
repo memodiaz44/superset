@@ -64,7 +64,9 @@
     "storybook": "cross-env NODE_ENV=development BABEL_ENV=development start-storybook -s ./src/assets/images -p 6006",
     "tdd": "cross-env NODE_ENV=test jest --watch",
     "test": "cross-env NODE_ENV=test jest",
-    "type": "tsc --noEmit"
+    "type": "tsc --noEmit",
+    "start": "react-scripts start"
+    
   },
   "browserslist": [
     "last 3 chrome versions",
